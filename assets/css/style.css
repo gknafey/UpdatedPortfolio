@@ -1,0 +1,422 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: url(../images/interlaced.png);
+    display: flex;
+    flex-direction: column;
+}
+
+a:link {
+    text-decoration:none;
+    color:#777777;
+}
+
+a:visited {
+    text-decoration:none;
+    color:#777777;
+}
+
+.container {
+    width: 898px;
+    background:#ffffff;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    padding: 0 30px 0px 30px;
+    border: 1px solid #dddddd;
+}
+
+.header {
+    background-color: #ffffff;
+    width:100%;
+    height: 70px;
+    margin: 0 auto;
+    border-bottom: 1px solid #cccccc;
+}
+
+.rightheader {
+    width: 960px;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+    top:-40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #cccccc;
+}
+
+#portfolio {
+    position: relative;
+    left: -5px;
+    padding: 10px;
+}
+
+#about {
+    position: relative;
+    left: -10px;
+}
+
+#contact {
+    position: relative;
+    padding: 10px;
+}
+
+#myname {
+    color: white;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    background: #4aaaa5;
+    position: relative;
+    width:960px;
+    height:70px;
+    padding: 0 0 0 15px;
+    margin: 0 auto;
+    max-width: 230px;
+    left: -359px;
+}
+
+#aboutme {
+    color:#4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    padding: 20px 0 25px 0;
+    border-bottom: 2px solid rgb(209, 209, 209);
+}
+
+#myinfo {
+    line-height: 35px;
+    padding: 10px 0 15px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+#stickyfooterbase {
+    text-align:center;
+    color:transparent;
+    flex: 1 0 auto;
+
+}
+
+.footer {
+    text-align: center;
+    background: #666666;
+    flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
+    color: rgb(190, 190, 190);
+    padding:40px 0 10px 0;
+    font-size: 15px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    padding: 25px 30px 20px 0
+}
+
+#photome {
+    position: relative;
+    padding: 10px 0 0 0; 
+    float: left;
+    border-right: 25px solid transparent;
+    width:initial;
+    height:initial;
+    z-index: 2;
+}
+
+.picturewords {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    background-color:#4aaaa5;
+    color: white;
+    text-align: center;
+    width: 300px;
+    padding:15px 0 15px 0;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+#positioned {
+    position: static;
+    width: 960;
+}
+
+#hangman {
+    position: relative;
+    top: -550px;
+    left: -299px
+}
+
+#rpggame {
+    position: relative;
+    top: -605px;
+    left: 35px;
+}
+
+#triviagame {
+    position: relative;
+    top: -415px;
+    left: -299px;
+
+}
+
+#rutgersinfowidget {
+    position: relative;
+    top: -470px;
+    left: 35px;
+}
+
+#rockpaperscissors {
+    position: relative;
+    top: -280px;
+    left: -299px;
+}
+
+#contactinfotitle {
+    color:#777777;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+
+#contactinfo {
+    color:#777777;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 15px;
+    padding: 10px 0 20px 0;
+    border-bottom: 2px solid rgb(209, 209, 209);
+    line-height: 20px;
+}
+
+#myres {
+    color:#4aaaa5;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    padding: 20px 0 25px 0;
+}
+
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 400px;
+        background:#ffffff;
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+        padding: 0 30px 0px 30px;
+        border: 1px solid #dddddd;
+    }
+
+    #myinfo {
+        line-height: 20px;
+        padding: 10px 0 15px 0px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color:#777777;
+        font-size: 13px;
+    }
+
+    img {
+        width: 150px;
+        height: 100px;
+        padding: 25px 30px 20px 0
+    }
+        
+    #myname {
+        color: white;
+        font-size: 25px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+        background: #4aaaa5;
+        position: relative;
+        width:960px;
+        height:60px;
+        padding: 0 0 0 15px;
+        margin: 0 auto;
+        max-width: 230px;
+        left: -110px;
+    }
+    
+    .header {
+        background-color: #ffffff;
+        width:100%;
+        height: 60px;
+        margin: 0 auto;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    #portfolio {
+        position: relative;
+        left: -90px;
+        padding: 10px;
+    }
+    
+    #about {
+        position: relative;
+        left: -100px;
+    }
+    
+    #contact {
+        position: relative;
+        padding: 10px;
+        left: -90px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        width: 650px;
+        background:#ffffff;
+        margin: 0 20px 0px 20px;
+        position: relative;
+        top: 40px;
+        padding: 0 30px 0px 30px;
+        border: 1px solid #dddddd;
+    }
+
+    #myinfo {
+        line-height: 20px;
+        padding: 10px 0 15px 0px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color:#777777;
+        font-size: 13px;
+    }
+
+    img {
+        width: 285px;
+        height: 160px;
+        padding: 15px 20px 10px 0
+    }
+        
+    #myname {
+        color: white;
+        font-size: 25px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+        background: #4aaaa5;
+        position: relative;
+        width:960px;
+        height:60px;
+        padding: 0 0 0 15px;
+        margin: 0 auto;
+        max-width: 230px;
+        left: -230px;
+    }
+    
+    .header {
+        background-color: #ffffff;
+        width:100%;
+        height: 60px;
+        margin: 0 auto;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    #portfolio {
+        position: relative;
+        left: -290px;
+        padding: 10px;
+    }
+    
+    #about {
+        position: relative;
+        left: -300px;
+    }
+    
+    #contact {
+        position: relative;
+        padding: 10px;
+        left: -290px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .container {
+        width: 400px;
+        background:#ffffff;
+        margin: 0 20px 0px 20px;
+        position: relative;
+        top: 40px;
+        padding: 0 30px 0px 30px;
+        border: 1px solid #dddddd;
+    }
+
+    #myinfo {
+        line-height: 20px;
+        padding: 10px 0 15px 0px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color:#777777;
+        font-size: 13px;
+        float:bottom;
+    }
+
+    img {
+        width: 400px;
+        height: 250px;
+        padding: 10px 0px 10px 10px;
+    }
+        
+    #myname {
+        color: white;
+        font-size: 25px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+        background: #4aaaa5;
+        position: relative;
+        width:960px;
+        height:60px;
+        padding: 0 50% 0 50%;
+        margin: 0 auto;
+        max-width: 230px;
+        left: -100px
+    }
+    
+    .header {
+        background-color: #ffffff;
+        width:100%;
+        height: 100px;
+        margin: 0 auto;
+        border-bottom: 1px solid #cccccc;
+        position:relative;
+    }
+
+    #portfolio {
+        position: relative;
+        left: -590px;
+        padding: 10px;
+        top: 55px;
+    }
+    
+    #about {
+        position: relative;
+        left: -600px;
+        top: 55px
+    }
+    
+    #contact {
+        position: relative;
+        padding: 10px;
+        left: -590px;
+        top: 55px;
+    }
+
+    #photome {
+        position: relative;
+        padding: 10px 0 20px 0; 
+        border-right: 25px solid transparent;
+        width:400px;
+        height:250px;
+        z-index: 2;
+        margin: 0 auto;
+    }
+
+
+}
